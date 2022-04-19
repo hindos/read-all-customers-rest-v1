@@ -10,11 +10,11 @@ integrationServer:
     policyproject:
       - DefaultPolicies
     keystore:
-      - tiger-bank-ace-server-keystore.jks
+      - arab-bank-ace-server-keystore.jks
     truststore:
-      - tiger-bank-ace-server-truststore.jks
+      - arab-bank-ace-server-truststore.jks
     loopbackdatasource:
       - datasources.json
 tracing: 
   tracingNS: tracing
-  tracingEnabled: "true"
+  tracingEnabled: "false"
