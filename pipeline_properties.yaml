@@ -1,0 +1,20 @@
+integrationServer:
+  applicationNames:
+    - readallcustomers
+  releaseName: readallcustomers
+  configurations:
+    setdbparms:
+      - dbparms.txt
+    serverconf:
+      - serverconf.yaml
+    policyproject:
+      - DefaultPolicies
+    keystore:
+      - tiger-bank-ace-server-keystore.jks
+    truststore:
+      - tiger-bank-ace-server-truststore.jks
+    loopbackdatasource:
+      - datasources.json
+tracing: 
+  tracingNS: tracing
+  tracingEnabled: "true"
